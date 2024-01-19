@@ -397,7 +397,7 @@
 
 
     <!-- Hero Section Start -->
-    <div class="hero-section col-xxl-8 py-5">
+    <div class="hero-section py-5">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
             <div class="col-12 col-lg-6 col-xl-6">
                 <!-- Grid row -->

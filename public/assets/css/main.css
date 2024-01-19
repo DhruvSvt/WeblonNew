@@ -168,7 +168,7 @@ section {
 # Global Header
 --------------------------------------------------------------*/
 .header {
-  --background-color: #ffffff;
+  --background-color: transparent;
   color: var(--default-color);
   background-color: var(--background-color);
   padding: 15px 0;
@@ -1015,8 +1015,8 @@ section {
   padding: 5px;
   max-width: 80%;
   transition: 0.3s;
-  opacity: 0.5;
-  filter: grayscale(100);
+  /* opacity: 0.5;
+  filter: grayscale(100); */
 }
 
 .clients .client-logo img:hover {

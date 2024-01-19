@@ -5,7 +5,7 @@
     <!-- Hero Section - Home Page -->
     <section id="hero" class="hero">
 
-        <img src="{{ config('app.url') }}/assets/img/hero-bg1.jpg" alt="" data-aos="fade-in">
+        <img src="{{ config('app.url') }}/assets/img/hero-bg1.png" alt="" data-aos="fade-in">
 
         <div class="container">
             <div class="row">
@@ -350,7 +350,7 @@
                     <div class="img-section position-relative">
                         <div class="overlay-color"></div>
                         <a href="#" class="thumbnail:before">
-                            <img src="{{ config('app.url') }}/assets/img/stats-bg.jpg" class="thumbnail" alt="Image 1">
+                            <img src="{{ config('app.url') }}/assets/img/img-section/1.png" class="thumbnail" alt="Image 1">
                         </a>
                         <div class="overlay-text">Customised Office
                             <br>
@@ -365,7 +365,7 @@
                     <div class="img-section position-relative">
                         <div class="overlay-color"></div>
                         <a href="#" class="thumbnail:before">
-                            <img src="{{ config('app.url') }}/assets/img/stats-bg.jpg" class="thumbnail" alt="Image 1">
+                            <img src="{{ config('app.url') }}/assets/img/img-section/2.png" class="thumbnail" alt="Image 1">
                         </a>
                         <div class="overlay-text">Coworking Space
                             <br>
@@ -380,7 +380,7 @@
                     <div class="img-section position-relative">
                         <div class="overlay-color"></div>
                         <a href="#" class="thumbnail:before">
-                            <img src="{{ config('app.url') }}/assets/img/stats-bg.jpg" class="thumbnail" alt="Image 1">
+                            <img src="{{ config('app.url') }}/assets/img/img-section/3.png" class="thumbnail" alt="Image 1">
                         </a>
                         <div class="overlay-text">Private Cabin
                             <br>
@@ -478,7 +478,7 @@
               velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
             </p>
           </div> -->
-                <div class="d-flex justify-content-center row">
+                <div class="d-flex justify-content-center row" style="margin-left: 4px;">
                     <div class="box m-2" data-aos="fade-up" data-aos-delay="200">
 
                         <div class="swiper">

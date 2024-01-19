@@ -350,7 +350,8 @@
                     <div class="img-section position-relative">
                         <div class="overlay-color"></div>
                         <a href="#" class="thumbnail:before">
-                            <img src="{{ config('app.url') }}/assets/img/img-section/1.png" class="thumbnail" alt="Image 1">
+                            <img src="{{ config('app.url') }}/assets/img/img-section/1.png" class="thumbnail"
+                                alt="Image 1">
                         </a>
                         <div class="overlay-text">Customised Office
                             <br>
@@ -365,7 +366,8 @@
                     <div class="img-section position-relative">
                         <div class="overlay-color"></div>
                         <a href="#" class="thumbnail:before">
-                            <img src="{{ config('app.url') }}/assets/img/img-section/2.png" class="thumbnail" alt="Image 1">
+                            <img src="{{ config('app.url') }}/assets/img/img-section/2.png" class="thumbnail"
+                                alt="Image 1">
                         </a>
                         <div class="overlay-text">Coworking Space
                             <br>
@@ -380,7 +382,8 @@
                     <div class="img-section position-relative">
                         <div class="overlay-color"></div>
                         <a href="#" class="thumbnail:before">
-                            <img src="{{ config('app.url') }}/assets/img/img-section/3.png" class="thumbnail" alt="Image 1">
+                            <img src="{{ config('app.url') }}/assets/img/img-section/3.png" class="thumbnail"
+                                alt="Image 1">
                         </a>
                         <div class="overlay-text">Private Cabin
                             <br>
@@ -490,10 +493,9 @@
                                 "delay": 5000
                                 },
                                 "slidesPerView": "auto",
-                                "pagination": {
-                                "el": ".swiper-pagination",
-                                "type": "bullets",
-                                "clickable": true
+                                "navigation": {
+                                "nextEl": ".swiper-button-next",
+                                "prevEl": ".swiper-button-prev"
                                 }
                                 }
                             </template>
@@ -503,7 +505,7 @@
                                 <div class="swiper-slide">
                                     <div class="testimonial-item">
                                         <p>
-                                            
+
                                             <span>Our current office space is a true gem, combining modern design with
                                                 practical
                                                 functionality. The vibrant atmosphere fosters creativity, while the
@@ -516,7 +518,7 @@
                                                 productivity and
                                                 collaboration. It's not just a workplace; it's a catalyst for
                                                 success.</span>
-                                            
+
                                         </p>
                                         <hr style="border: 1px solid black;">
                                         <div class="d-xs-grid d-sm-grid d-md-flex">
@@ -530,8 +532,8 @@
                                                 </div>
                                             </div>
                                             <div class="col-lg-3 my-auto">
-                                                <img src="{{ config('app.url') }}/assets/img/cropped-mindlance-1.png" width="140px"
-                                                    height="50px">
+                                                <img src="{{ config('app.url') }}/assets/img/cropped-mindlance-1.png"
+                                                    width="140px" height="50px">
                                             </div>
                                         </div>
                                     </div>
@@ -541,7 +543,7 @@
                                 <div class="swiper-slide">
                                     <div class="testimonial-item">
                                         <p>
-                                            
+
                                             <span>Our current office space is a true gem, combining modern design with
                                                 practical
                                                 functionality. The vibrant atmosphere fosters creativity, while the
@@ -554,7 +556,7 @@
                                                 productivity and
                                                 collaboration. It's not just a workplace; it's a catalyst for
                                                 success.</span>
-                                            
+
                                         </p>
                                         <hr style="border: 1px solid black;">
                                         <div class="d-xs-grid d-sm-grid d-md-flex">
@@ -568,8 +570,8 @@
                                                 </div>
                                             </div>
                                             <div class="col-lg-3 my-auto">
-                                                <img src="{{ config('app.url') }}/assets/img/cropped-mindlance-1.png" width="140px"
-                                                    height="50px">
+                                                <img src="{{ config('app.url') }}/assets/img/cropped-mindlance-1.png"
+                                                    width="140px" height="50px">
                                             </div>
                                         </div>
                                     </div>
@@ -579,7 +581,7 @@
                                 <div class="swiper-slide">
                                     <div class="testimonial-item">
                                         <p>
-                                            
+
                                             <span>Our current office space is a true gem, combining modern design with
                                                 practical
                                                 functionality. The vibrant atmosphere fosters creativity, while the
@@ -592,7 +594,7 @@
                                                 productivity and
                                                 collaboration. It's not just a workplace; it's a catalyst for
                                                 success.</span>
-                                            
+
                                         </p>
                                         <hr style="border: 1px solid black;">
                                         <div class="d-xs-grid d-sm-grid d-md-flex">
@@ -606,8 +608,8 @@
                                                 </div>
                                             </div>
                                             <div class="col-lg-3 my-auto">
-                                                <img src="{{ config('app.url') }}/assets/img/cropped-mindlance-1.png" width="140px"
-                                                    height="50px">
+                                                <img src="{{ config('app.url') }}/assets/img/cropped-mindlance-1.png"
+                                                    width="140px" height="50px">
                                             </div>
                                         </div>
                                     </div>
@@ -617,7 +619,7 @@
                                 <div class="swiper-slide">
                                     <div class="testimonial-item">
                                         <p>
-                                            
+
                                             <span>Our current office space is a true gem, combining modern design with
                                                 practical
                                                 functionality. The vibrant atmosphere fosters creativity, while the
@@ -630,7 +632,7 @@
                                                 productivity and
                                                 collaboration. It's not just a workplace; it's a catalyst for
                                                 success.</span>
-                                            
+
                                         </p>
                                         <hr style="border: 1px solid black;">
                                         <div class="d-xs-grid d-sm-grid d-md-flex">
@@ -644,8 +646,8 @@
                                                 </div>
                                             </div>
                                             <div class="col-lg-3 my-auto">
-                                                <img src="{{ config('app.url') }}/assets/img/cropped-mindlance-1.png" width="140px"
-                                                    height="50px">
+                                                <img src="{{ config('app.url') }}/assets/img/cropped-mindlance-1.png"
+                                                    width="140px" height="50px">
                                             </div>
                                         </div>
                                     </div>
@@ -655,7 +657,7 @@
                                 <div class="swiper-slide">
                                     <div class="testimonial-item">
                                         <p>
-                                            
+
                                             <span>Our current office space is a true gem, combining modern design with
                                                 practical
                                                 functionality. The vibrant atmosphere fosters creativity, while the
@@ -668,7 +670,7 @@
                                                 productivity and
                                                 collaboration. It's not just a workplace; it's a catalyst for
                                                 success.</span>
-                                            
+
                                         </p>
                                         <hr style="border: 1px solid black;">
                                         <div class="d-xs-grid d-sm-grid d-md-flex">
@@ -682,8 +684,8 @@
                                                 </div>
                                             </div>
                                             <div class="col-lg-3 my-auto">
-                                                <img src="{{ config('app.url') }}/assets/img/cropped-mindlance-1.png" width="140px"
-                                                    height="50px">
+                                                <img src="{{ config('app.url') }}/assets/img/cropped-mindlance-1.png"
+                                                    width="140px" height="50px">
                                             </div>
                                         </div>
                                     </div>
@@ -691,9 +693,13 @@
                                 <!-- End testimonial item -->
 
                             </div>
-                            <div class="swiper-pagination"></div>
+                            {{-- <div class="swiper-pagination"></div> --}}
                         </div>
 
+                    </div>
+                    <div class="d-flex justify-content-center mt-3">
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
                     </div>
                 </div>
 

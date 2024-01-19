@@ -329,7 +329,7 @@
         </div>
     </section>
     <!-- End Services Section -->
-
+    <hr style="border: 1px solid black;">
     <!-- Image Section - Home Page -->
     <section id="services" class="services">
 
@@ -503,7 +503,7 @@
                                 <div class="swiper-slide">
                                     <div class="testimonial-item">
                                         <p>
-                                            <i class="bi bi-quote quote-icon-left"></i>
+                                            
                                             <span>Our current office space is a true gem, combining modern design with
                                                 practical
                                                 functionality. The vibrant atmosphere fosters creativity, while the
@@ -516,7 +516,7 @@
                                                 productivity and
                                                 collaboration. It's not just a workplace; it's a catalyst for
                                                 success.</span>
-                                            <i class="bi bi-quote quote-icon-right"></i>
+                                            
                                         </p>
                                         <hr style="border: 1px solid black;">
                                         <div class="d-xs-grid d-sm-grid d-md-flex">
@@ -541,7 +541,7 @@
                                 <div class="swiper-slide">
                                     <div class="testimonial-item">
                                         <p>
-                                            <i class="bi bi-quote quote-icon-left"></i>
+                                            
                                             <span>Our current office space is a true gem, combining modern design with
                                                 practical
                                                 functionality. The vibrant atmosphere fosters creativity, while the
@@ -554,7 +554,7 @@
                                                 productivity and
                                                 collaboration. It's not just a workplace; it's a catalyst for
                                                 success.</span>
-                                            <i class="bi bi-quote quote-icon-right"></i>
+                                            
                                         </p>
                                         <hr style="border: 1px solid black;">
                                         <div class="d-xs-grid d-sm-grid d-md-flex">
@@ -579,7 +579,7 @@
                                 <div class="swiper-slide">
                                     <div class="testimonial-item">
                                         <p>
-                                            <i class="bi bi-quote quote-icon-left"></i>
+                                            
                                             <span>Our current office space is a true gem, combining modern design with
                                                 practical
                                                 functionality. The vibrant atmosphere fosters creativity, while the
@@ -592,7 +592,7 @@
                                                 productivity and
                                                 collaboration. It's not just a workplace; it's a catalyst for
                                                 success.</span>
-                                            <i class="bi bi-quote quote-icon-right"></i>
+                                            
                                         </p>
                                         <hr style="border: 1px solid black;">
                                         <div class="d-xs-grid d-sm-grid d-md-flex">
@@ -617,7 +617,7 @@
                                 <div class="swiper-slide">
                                     <div class="testimonial-item">
                                         <p>
-                                            <i class="bi bi-quote quote-icon-left"></i>
+                                            
                                             <span>Our current office space is a true gem, combining modern design with
                                                 practical
                                                 functionality. The vibrant atmosphere fosters creativity, while the
@@ -630,7 +630,7 @@
                                                 productivity and
                                                 collaboration. It's not just a workplace; it's a catalyst for
                                                 success.</span>
-                                            <i class="bi bi-quote quote-icon-right"></i>
+                                            
                                         </p>
                                         <hr style="border: 1px solid black;">
                                         <div class="d-xs-grid d-sm-grid d-md-flex">
@@ -655,7 +655,7 @@
                                 <div class="swiper-slide">
                                     <div class="testimonial-item">
                                         <p>
-                                            <i class="bi bi-quote quote-icon-left"></i>
+                                            
                                             <span>Our current office space is a true gem, combining modern design with
                                                 practical
                                                 functionality. The vibrant atmosphere fosters creativity, while the
@@ -668,7 +668,7 @@
                                                 productivity and
                                                 collaboration. It's not just a workplace; it's a catalyst for
                                                 success.</span>
-                                            <i class="bi bi-quote quote-icon-right"></i>
+                                            
                                         </p>
                                         <hr style="border: 1px solid black;">
                                         <div class="d-xs-grid d-sm-grid d-md-flex">

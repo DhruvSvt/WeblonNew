@@ -1002,6 +1002,7 @@ section {
 ------------------------------*/
 .clients {
     padding: 10px 0;
+    background-color: #F6F6F6;
 }
 
 .clients .client-logo {
@@ -1954,7 +1955,7 @@ section {
 }
 
 .testimonials .testimonial-item p {
-    font-style: italic;
+    /* font-style: italic; */
     margin: 15px auto 15px auto;
 }
 

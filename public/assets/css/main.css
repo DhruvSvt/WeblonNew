@@ -808,7 +808,7 @@ section {
     border: 1px solid rgba(var(--default-color-rgb), 0.5);
     font-size: 16px;
     color: rgba(var(--default-color-rgb), 0.5);
-    margin-right: 10px;
+    margin-right: 24px;
     transition: 0.3s;
 }
 

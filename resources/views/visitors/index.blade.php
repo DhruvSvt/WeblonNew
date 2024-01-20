@@ -15,13 +15,107 @@
                     </h2>
                     <!-- <p data-aos="fade-up" data-aos-delay="200">We are team of talented designers making websites with Bootstrap</p> -->
                     <div class="btn-connect">
-                        <a class="btn-requestforquoate" href="index.html#about">Consult With Us &nbsp;&nbsp; <i
+                        <a class="btn-requestforquoate" href="index.html#about" data-toggle="modal"
+                            data-target="#myModal">Consult With Us &nbsp;&nbsp; <i
                                 class="fa-solid fa-chevron-right"></i> </a>
                     </div>
+
                 </div>
             </div>
         </div>
+        <!-- Modal Start-->
+        <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog modal-lg">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <div class="d-flex justify-content-center row m-4">
+                            <div class="col-6">
+                                <div class="model-left-text">
+                                    <h4>Optimize your business with a seamless <span>office solution</span></h4>
+                                    <p>Plug-and-play office space for instant <br>
+                                        setup and productivity.</p>
+                                </div>
+                                <div class="model-left-img">
+                                    <img src="{{ config('app.url') }}/assets/img/modal-img.png" alt="" srcset=""
+                                        class="modal-img img-fluid"
+                                        style="width: 36%;height: auto;margin: 14rem 36px;border-radius: 15px;"
+                                        height="100px">
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <form class="row">
+                                    {{-- <div class="col-md-6">
+                                        <label for="inputEmail4" class="form-label">Email</label>
+                                        <input type="email" class="form-control" id="inputEmail4">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="inputPassword4" class="form-label">Password</label>
+                                        <input type="password" class="form-control" id="inputPassword4">
+                                    </div> --}}
+                                    <div class="col-12 mt-4">
 
+                                        <input type="text" class="form-control" id="inputAddress"
+                                            placeholder="Full name">
+                                    </div>
+                                    <div class="col-12 mt-4">
+
+                                        <input type="email" class="form-control" id="inputAddress"
+                                            placeholder="E-mail ID">
+                                    </div>
+                                    <div class="col-12 mt-4">
+                                        <input type="text" class="form-control" id="inputAddress"
+                                            placeholder="Contact No.">
+                                    </div>
+                                    <div class="col-md-6 mt-4">
+
+                                        <select class="form-select form-control" aria-label="Default select example">
+                                            <option selected>Office Space</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-6 mt-4">
+
+                                        <select class="form-select form-control" aria-label="Default select example">
+                                            <option selected>Required Seat</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleFormControlTextarea2">Message</label>
+                                        <textarea class="form-control rounded-0" id="exampleFormControlTextarea2"
+                                            rows="3" placeholder="Message"></textarea>
+                                    </div>
+                                    <div class="col-3">
+                                        <span>6 + 7 = </span>
+                                    </div>
+                                    <div class="col-3 d-flex">
+                                        <input type="text" class="form-control" id="inputZip">
+                                    </div>
+                                    <div class="col-6">
+                                        <button type="submit" class="btn btn-primary">Sign in</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="footer">Overseeing a clientele exceeding <span>50</span>, our office space spans
+                        <span>3,500</span> square feet,
+                        accommodating
+                        well over <span>1,000</span> seats.</p>
+                    {{-- <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div> --}}
+                </div>
+
+            </div>
+        </div>
+        <!-- Modal End-->
     </section><!-- End Hero Section -->
 
     <!-- Clients Section - Home Page -->
@@ -737,9 +831,9 @@
                                     will vary by
                                     number of people, term of agreement, the specific coworking location and
                                     availability.</p>
-                                </div>
-                                <i id="faq-toggle-plus" class="faq-toggle fa-regular fa-square-plus"></i>
-                                <i id="faq-toggle-minus" class="faq-toggle fa-regular fa-square-minus"></i>
+                            </div>
+                            <i id="faq-toggle-plus" class="faq-toggle fa-regular fa-square-plus"></i>
+                            <i id="faq-toggle-minus" class="faq-toggle fa-regular fa-square-minus"></i>
                         </div>
                         <!-- End Faq item-->
 
@@ -815,7 +909,6 @@
 
     </section>
     <!-- End Faq Section -->
-
 
 </main>
 @endsection

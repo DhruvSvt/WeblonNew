@@ -3283,3 +3283,61 @@ section {
     background: #2A1C73;
     transition: 0.3s;
 }
+
+/*--------------------------------------------------------------
+# Blog Details Page
+--------------------------------------------------------------*/
+/* Blog-details Section - Blog Details Page
+------------------------------*/
+.modal-head {
+    padding: 10px;
+}
+
+.modal-body h4 {
+    font-size: 20px;
+    color: black;
+}
+
+.modal-body span {
+    color: #2A1C73;
+}
+
+.modal-body p {
+    font-size: 12px;
+    color: black;
+}
+
+.modal .box {
+    background-color: rgba(175, 192, 255, 0.898);
+}
+
+.model-left-text {
+    position: relative;
+}
+
+/* .modal-head .model-left-img{
+    position: absolute;
+    width: 44%;
+    height: auto;
+} */
+.modal-head .model-img {
+    width: 36%;
+    height: auto;
+    margin: 14rem 35px;
+    border-radius: 15px;
+}
+
+.modal-content .footer {
+    background-color: rgba(42, 28, 115, 0.26);
+    font-size: 15px;
+    color: black;
+    margin: 22px;
+    padding: 9px 27px;
+    border-radius: 7px;
+    font-weight: 401;
+}
+
+.modal-content .footer span {
+    color: #2A1C73;
+    font-weight: bold;
+}

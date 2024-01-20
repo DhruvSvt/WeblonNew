@@ -726,7 +726,7 @@
 
                     <div class="faq-container">
                         <div class="faq-item">
-                            <h3 id="faq-item" ><span class="num">1.</span> <span>How much does a coworking space in Dehradun
+                            <h3><span class="num">1.</span> <span>How much does a coworking space in Dehradun
                                     cost?</span></h3>
                             <div class="faq-content">
                                 <p>Join a thriving community of professionals with our vibrant coworking spaces in
@@ -737,9 +737,9 @@
                                     will vary by
                                     number of people, term of agreement, the specific coworking location and
                                     availability.</p>
-                            </div>
-                            <i id="faq-toggle-plus" class="faq-toggle fa-regular fa-square-plus"></i>
-                            <i id="faq-toggle-minus" class="faq-toggle fa-regular fa-square-minus"></i>
+                                </div>
+                                <i id="faq-toggle-plus" class="faq-toggle fa-regular fa-square-plus"></i>
+                                <i id="faq-toggle-minus" class="faq-toggle fa-regular fa-square-minus"></i>
                         </div>
                         <!-- End Faq item-->
 
@@ -754,7 +754,7 @@
                                     elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt
                                     dui.</p>
                             </div>
-                             <i id="faq-toggle-plus" class="faq-toggle fa-regular fa-square-plus"></i>
+                            <i id="faq-toggle-plus" class="faq-toggle fa-regular fa-square-plus"></i>
                             <i id="faq-toggle-minus" class="faq-toggle fa-regular fa-square-minus"></i>
                         </div>
                         <!-- End Faq item-->
@@ -771,7 +771,7 @@
                                     elementum eu facilisis
                                     sed odio morbi quis</p>
                             </div>
-                             <i id="faq-toggle-plus" class="faq-toggle fa-regular fa-square-plus"></i>
+                            <i id="faq-toggle-plus" class="faq-toggle fa-regular fa-square-plus"></i>
                             <i id="faq-toggle-minus" class="faq-toggle fa-regular fa-square-minus"></i>
                         </div>
                         <!-- End Faq item-->
@@ -787,7 +787,7 @@
                                     elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt
                                     dui.</p>
                             </div>
-                             <i id="faq-toggle-plus" class="faq-toggle fa-regular fa-square-plus"></i>
+                            <i id="faq-toggle-plus" class="faq-toggle fa-regular fa-square-plus"></i>
                             <i id="faq-toggle-minus" class="faq-toggle fa-regular fa-square-minus"></i>
                         </div>
                         <!-- End Faq item-->
@@ -801,7 +801,7 @@
                                     bibendum est.
                                     Purus gravida quis blandit turpis cursus in</p>
                             </div>
-                             <i id="faq-toggle-plus" class="faq-toggle fa-regular fa-square-plus"></i>
+                            <i id="faq-toggle-plus" class="faq-toggle fa-regular fa-square-plus"></i>
                             <i id="faq-toggle-minus" class="faq-toggle fa-regular fa-square-minus"></i>
                         </div>
                         <!-- End Faq item-->

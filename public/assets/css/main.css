@@ -1688,9 +1688,9 @@ section {
 
 .faq .faq-container .faq-item .faq-toggle {
     position: absolute;
-    top: 20px;
+    top: 32px;
     right: 20px;
-    font-size: 16px;
+    font-size: 19px;
     line-height: 0;
     transition: 0.3s;
     cursor: pointer;
@@ -1712,7 +1712,7 @@ section {
 }
 
 .faq .faq-container .faq-active .faq-toggle {
-    transform: rotate(90deg);
+    transform: rotate(180deg);
     color: var(--primary-color);
 }
 

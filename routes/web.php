@@ -16,3 +16,5 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('visitors.index');
 });
+
+Route::view('/coworking-space', 'visitors.coworking-space');

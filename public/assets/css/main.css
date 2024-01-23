@@ -156,11 +156,11 @@ section {
     font-weight: 600;
 }
 
-.page-title nav ol li + li {
+.page-title nav ol li+li {
     padding-left: 10px;
 }
 
-.page-title nav ol li + li::before {
+.page-title nav ol li+li::before {
     content: "/";
     display: inline-block;
     padding-right: 10px;
@@ -403,7 +403,7 @@ section {
         padding-right: 0;
     }
 
-    .navmenu li:hover > a,
+    .navmenu li:hover>a,
     .navmenu .active,
     .navmenu .active:focus {
         color: #2a1c73;
@@ -424,15 +424,40 @@ section {
         z-index: 99;
     }
 
+    .navmenu .workspace ul {
+        margin: 0;
+        padding: 10px 15px 0px 15px;
+        background: var(--nav-dropdown-background-color);
+        display: block;
+        position: absolute;
+        visibility: hidden;
+        left: -50rem;
+        top: 130%;
+        opacity: 0;
+        transition: 0.3s;
+        border-radius: 4px;
+        z-index: 99;
+        right: 0;
+        top: 20px;
+        width: 770%;
+        column-count: 3;
+        border: 1px solid #2a1c73;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+
     .navmenu .dropdown ul li {
         min-width: 200px;
     }
 
     .navmenu .dropdown ul a {
-        padding: 10px 20px;
+        padding: 10px 10px;
         font-size: 15px;
         text-transform: none;
-        color: var(--nav-dropdown-color);
+        color: #000000;
+    }
+
+    .navmenu .dropdown ul a span {
+        color: #2a1c73;
     }
 
     .navmenu .dropdown ul a i {
@@ -441,11 +466,11 @@ section {
 
     .navmenu .dropdown ul a:hover,
     .navmenu .dropdown ul .active:hover,
-    .navmenu .dropdown ul li:hover > a {
+    .navmenu .dropdown ul li:hover>a {
         color: var(--nav-dropdown-hover-color);
     }
 
-    .navmenu .dropdown:hover > ul {
+    .navmenu .dropdown:hover>ul {
         opacity: 1;
         top: 100%;
         visibility: visible;
@@ -457,7 +482,7 @@ section {
         visibility: hidden;
     }
 
-    .navmenu .dropdown .dropdown:hover > ul {
+    .navmenu .dropdown .dropdown:hover>ul {
         opacity: 1;
         top: 0;
         left: -100%;
@@ -491,7 +516,7 @@ section {
     }
 
     .navmenu .megamenu ul li a,
-    .navmenu .megamenu ul li:hover > a {
+    .navmenu .megamenu ul li:hover>a {
         padding: 10px 20px;
         font-size: 15px;
         color: var(--nav-dropdown-color);
@@ -503,7 +528,7 @@ section {
         color: var(--nav-dropdown-hover-color);
     }
 
-    .navmenu .megamenu:hover > ul {
+    .navmenu .megamenu:hover>ul {
         opacity: 1;
         top: 100%;
         visibility: visible;
@@ -608,8 +633,8 @@ section {
         background-color: rgba(33, 37, 41, 0.1);
     }
 
-    .navmenu .dropdown > .dropdown-active,
-    .navmenu .megamenu > .dropdown-active {
+    .navmenu .dropdown>.dropdown-active,
+    .navmenu .megamenu>.dropdown-active {
         display: block;
         background-color: rgba(33, 37, 41, 0.03);
     }
@@ -636,7 +661,7 @@ section {
         transition: 0.3s;
     }
 
-    .mobile-nav-active .navmenu > ul {
+    .mobile-nav-active .navmenu>ul {
         display: block;
     }
 }
@@ -934,13 +959,11 @@ section {
     position: absolute;
     inset: 0;
     z-index: 2;
-    background: linear-gradient(
-        180deg,
-        rgba(255, 255, 255, 0.47) 0%,
-        rgba(223.1, 224.36, 254.97, 0.41) 29%,
-        rgba(0, 9.85, 246.24, 0.35) 55%,
-        rgba(43, 29, 112, 0.47) 100%
-    );
+    background: linear-gradient(180deg,
+            rgba(255, 255, 255, 0.47) 0%,
+            rgba(223.1, 224.36, 254.97, 0.41) 29%,
+            rgba(0, 9.85, 246.24, 0.35) 55%,
+            rgba(43, 29, 112, 0.47) 100%);
 }
 
 .hero .container {
@@ -1137,6 +1160,7 @@ section {
 }
 
 @media (max-width: 768px) {
+
     .about .icon-boxes .col-md-6:nth-child(2) .icon-box,
     .about .icon-boxes .col-md-6:nth-child(4) .icon-box {
         margin-top: 0;
@@ -1281,12 +1305,12 @@ section {
     color: rgba(var(--default-color-rgb), 0.8);
 }
 
-.features .features-item + .features-item {
+.features .features-item+.features-item {
     margin-top: 100px;
 }
 
 @media (max-width: 768px) {
-    .features .features-item + .features-item {
+    .features .features-item+.features-item {
         margin-top: 40px;
     }
 }
@@ -1985,6 +2009,7 @@ section {
 }
 
 @media (max-width: 767px) {
+
     .testimonials .testimonials-carousel,
     .testimonials .testimonials-slider {
         overflow: hidden;
@@ -2083,6 +2108,7 @@ section {
 }
 
 @media (max-width: 575px) {
+
     .testimonials .swiper-button-prev,
     .testimonials .swiper-button-next {
         display: none;
@@ -2308,6 +2334,7 @@ section {
 }
 
 @media (max-width: 575px) {
+
     .portfolio-details .swiper-button-prev,
     .portfolio-details .swiper-button-next {
         display: none;
@@ -2439,7 +2466,7 @@ section {
     box-shadow: 0px 2px 20px rgba(var(--default-color-rgb), 0.12);
 }
 
-.service-details .service-box + .service-box {
+.service-details .service-box+.service-box {
     margin-top: 30px;
 }
 
@@ -2731,7 +2758,7 @@ section {
     margin: 0;
 }
 
-.blog-details .meta-top ul li + li {
+.blog-details .meta-top ul li+li {
     padding-left: 20px;
 }
 
@@ -2790,7 +2817,7 @@ section {
     display: inline-block;
 }
 
-.blog-details .meta-bottom .tags li + li::before {
+.blog-details .meta-bottom .tags li+li::before {
     padding-right: 6px;
     color: var(--default-color);
     content: ",";
@@ -2817,7 +2844,7 @@ section {
     margin: 0;
 }
 
-.blog-details .sidebar .sidebar-item + .sidebar-item {
+.blog-details .sidebar .sidebar-item+.sidebar-item {
     margin-top: 40px;
 }
 
@@ -2870,7 +2897,7 @@ section {
     padding: 0;
 }
 
-.blog-details .sidebar .categories ul li + li {
+.blog-details .sidebar .categories ul li+li {
     padding-top: 10px;
 }
 
@@ -3121,22 +3148,20 @@ section {
     position: relative;
 }
 
-.img-section > img,
+.img-section>img,
 .overlay-color {
     position: absolute;
     width: 100%;
     height: 450px;
-    background: linear-gradient(
-        180deg,
-        rgba(0, 0, 0, 0.55) 0%,
-        rgba(223, 224, 255, 0.76) 33.72%,
-        rgba(0, 10, 246, 0.42) 64.52%,
-        rgba(43, 29, 112, 0.71) 96.5%
-    );
+    background: linear-gradient(180deg,
+            rgba(0, 0, 0, 0.55) 0%,
+            rgba(223, 224, 255, 0.76) 33.72%,
+            rgba(0, 10, 246, 0.42) 64.52%,
+            rgba(43, 29, 112, 0.71) 96.5%);
     z-index: 2;
 }
 
-.img-section > img,
+.img-section>img,
 .overlay-text {
     position: absolute;
     left: 1rem;
@@ -3147,7 +3172,7 @@ section {
     z-index: 3;
 }
 
-.img-section > img,
+.img-section>img,
 .sub-overlay-text {
     position: absolute;
     left: 1rem;
@@ -3344,6 +3369,7 @@ section {
     color: #2a1c73;
     font-weight: bold;
 }
+
 .modal-content a,
 .modal-content a:focus {
     color: #fff;
@@ -3354,6 +3380,7 @@ section {
     font-weight: 600;
     text-align: center;
 }
+
 .modal-content .btn-close {
     padding: 0;
     cursor: pointer;
@@ -3401,13 +3428,11 @@ section {
     position: absolute;
     inset: 0;
     z-index: 2;
-    background: linear-gradient(
-        180deg,
-        rgba(255, 255, 255, 0.47) 0%,
-        rgba(86, 88, 149, 0.41) 29%,
-        rgba(0, 0, 0, 0.47) 55%,
-        rgba(0, 0, 0, 0.47) 100%
-    );
+    background: linear-gradient(180deg,
+            rgba(255, 255, 255, 0.47) 0%,
+            rgba(86, 88, 149, 0.41) 29%,
+            rgba(0, 0, 0, 0.47) 55%,
+            rgba(0, 0, 0, 0.47) 100%);
 }
 
 .coworking .container {
@@ -3428,6 +3453,7 @@ section {
     font-size: 20px;
     margin-bottom: 20px;
 }
+
 .coworking .modal-p {
     color: #000;
     font-size: 12px;
@@ -3522,4 +3548,31 @@ section {
         display: inline;
         padding: 7px;
     }
+}
+
+.workspace-box img {
+    width: 249px;
+    height: 149px;
+    margin-inline: 15px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.workspace-box a.heading {
+    font-size: 21px !important;
+    padding-left: 16px !important;
+}
+
+.heading span{
+    color: #2a1c73;display:contents
+}
+.workspace .item{
+    font-size: 15px;
+    font-weight:700;
+    color:#000"
+}
+.item:hover{
+    color:#000AF6BF;
+    text-decoration: underline;
+
 }

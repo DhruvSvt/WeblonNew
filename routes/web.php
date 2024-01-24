@@ -17,4 +17,4 @@ Route::get('/', function () {
     return view('visitors.index');
 });
 
-Route::view('/coworking-space', 'visitors.coworking-space');
+Route::view('/coworking-space', 'visitors.coworking-space')->name('coworking-space');

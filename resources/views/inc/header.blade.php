@@ -41,7 +41,7 @@
                                 </li>
                             </div>
                             <div class="col-4">
-                                <li><a href="#" class="item">COWORKING
+                                <li><a href="{{ route('coworking-space') }}" class="item">COWORKING
                                         SPACE</a>
                                     <p style="font-size: 11px; font-weight:400;color:#000;padding-left:11px">Collaborate
                                         and

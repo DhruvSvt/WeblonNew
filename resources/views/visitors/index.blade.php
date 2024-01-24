@@ -16,7 +16,7 @@
                         <!-- <p data-aos="fade-up" data-aos-delay="200">We are team of talented designers making websites with Bootstrap</p> -->
                         <div class="btn-connect">
                             <a class="btn-requestforquoate" href="index.html#about" data-toggle="modal"
-                                data-target="#myModal">Consult With Us &nbsp;&nbsp; <i class="fa-solid fa-chevron-right"
+                                data-target="#myModal">Consult With Us &nbsp;&nbsp;&nbsp; <i class="fa-solid fa-chevron-right"
                                     style="text-decoration: none;"></i> </a>
                         </div>
 
@@ -434,7 +434,7 @@
             </div>
         </section>
         <!-- End Services Section -->
-        <hr style="border: 1px solid black;">
+        <hr style="border: 2px solid black;">
         <!-- Image Section - Home Page -->
         <section id="services" class="services">
 
@@ -456,7 +456,7 @@
                             <div class="overlay-color"></div>
                             <a href="#" class="thumbnail:before">
                                 <img src="{{ config('app.url') }}/assets/img/img-section/1.png" class="thumbnail"
-                                    alt="Image 1">
+                                    alt="Image 1" style="padding: 0px">
                             </a>
                             <div class="overlay-text">Customised Office
                                 <br>
@@ -472,7 +472,7 @@
                             <div class="overlay-color"></div>
                             <a href="#" class="thumbnail:before">
                                 <img src="{{ config('app.url') }}/assets/img/img-section/2.png" class="thumbnail"
-                                    alt="Image 1">
+                                    alt="Image 1" style="padding: 0px">
                             </a>
                             <div class="overlay-text">Coworking Space
                                 <br>
@@ -488,7 +488,7 @@
                             <div class="overlay-color"></div>
                             <a href="#" class="thumbnail:before">
                                 <img src="{{ config('app.url') }}/assets/img/img-section/3.png" class="thumbnail"
-                                    alt="Image 1">
+                                    alt="Image 1" style="padding: 0px">
                             </a>
                             <div class="overlay-text">Private Cabin
                                 <br>
@@ -630,7 +630,7 @@
                                                     success.</span>
 
                                             </p>
-                                            <hr style="border: 1px solid black;">
+                                            <hr style="border: 1px solid #2a1c73;">
                                             <div class="d-xs-grid d-sm-grid d-md-flex">
                                                 <div class="d-flex col-lg-9 ">
                                                     <img src="{{ config('app.url') }}/assets/img/testimonials/testimonials-1.jpg"
@@ -668,7 +668,7 @@
                                                     success.</span>
 
                                             </p>
-                                            <hr style="border: 1px solid black;">
+                                            <hr style="border: 1px solid #2a1c73;">
                                             <div class="d-xs-grid d-sm-grid d-md-flex">
                                                 <div class="d-flex col-lg-9 ">
                                                     <img src="{{ config('app.url') }}/assets/img/testimonials/testimonials-1.jpg"
@@ -706,7 +706,7 @@
                                                     success.</span>
 
                                             </p>
-                                            <hr style="border: 1px solid black;">
+                                            <hr style="border: 1px solid #2a1c73;">
                                             <div class="d-xs-grid d-sm-grid d-md-flex">
                                                 <div class="d-flex col-lg-9 ">
                                                     <img src="{{ config('app.url') }}/assets/img/testimonials/testimonials-1.jpg"
@@ -744,7 +744,7 @@
                                                     success.</span>
 
                                             </p>
-                                            <hr style="border: 1px solid black;">
+                                            <hr style="border: 1px solid #2a1c73;">
                                             <div class="d-xs-grid d-sm-grid d-md-flex">
                                                 <div class="d-flex col-lg-9 ">
                                                     <img src="{{ config('app.url') }}/assets/img/testimonials/testimonials-1.jpg"
@@ -782,7 +782,7 @@
                                                     success.</span>
 
                                             </p>
-                                            <hr style="border: 1px solid black;">
+                                            <hr style="border: 1px solid #2a1c73;">
                                             <div class="d-xs-grid d-sm-grid d-md-flex">
                                                 <div class="d-flex col-lg-9 ">
                                                     <img src="{{ config('app.url') }}/assets/img/testimonials/testimonials-1.jpg"
@@ -807,7 +807,7 @@
                             </div>
 
                         </div>
-                        <div class="d-flex justify-content-center mt-3">
+                        <div class="d-flex justify-content-center mt-5">
                             <div class="swiper-button-prev"></div>
                             <div class="swiper-button-next"></div>
                         </div>
@@ -824,7 +824,7 @@
                     <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
                         <div class="content px-xl-5">
                             <h4><strong>Answer to your office space questions in Dehradun.</strong></h4>
-                            <p>
+                            <p class="my-3 mb-5" >
                                 Our team ready to answer your questions.
                             </p>
                             <a class="faq-btn px-4 me-md-2">Talk to Expert <i class="fa-solid fa-chevron-right"></i>

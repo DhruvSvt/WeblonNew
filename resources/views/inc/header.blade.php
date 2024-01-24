@@ -2,7 +2,7 @@
 <header id="header" class="header fixed-top d-flex align-items-center px-5">
     <div class="container-fluid d-flex align-items-center justify-content-between">
 
-        <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <a href="{{ route('index') }}" class="logo d-flex align-items-center me-auto me-xl-0">
             <!-- Uncomment the line below if you also wish to use an image logo -->
             <img src="{{ config('app.url') }}/assets/img/weblon-logo.png" alt="">
             <!-- <h1>Append</h1> -->
@@ -48,12 +48,12 @@
                                         Create: Your Ideal
                                         Shared Office Space Awaits!</p>
                                 </li>
-                                <hr style="margin-top: 20px;margin-left: 11px;width: 19rem;border-top: 1px solid #000;">
+                                <hr style="margin-top: 20px;margin-left: 11px;width: 19rem;border-top: 1px solid #686868;">
                                 <li style="font-size: 14px; font-weight:700"><a href="#" class="item">PRIVATE OFFICE SPACE</a>
                                     <p style="font-size: 11px; font-weight:400;color:#000;padding-left:11px">Empower
                                         Your Workspace: Discover the Advantage of Managed Office Spaces</p>
                                 </li>
-                                <hr style="margin-top: 15px;margin-left: 11px;width: 19rem;border-top: 1px solid #000;">
+                                <hr style="margin-top: 15px;margin-left: 11px;width: 19rem;border-top: 1px solid #686868;">
                             </div>
                             <div class="col-4">
                                 <li style="font-size: 14px; font-weight:700"><a href="#" class="item">MEETING ROOMS</a>
@@ -61,13 +61,13 @@
                                         Empower Your Meetings with Exceptional Spaces
                                     </p>
                                 </li>
-                                <hr style="margin-top: 20px;margin-left: 11px;width: 19rem;border-top: 1px solid #000;">
+                                <hr style="margin-top: 20px;margin-left: 11px;width: 19rem;border-top: 1px solid #686868;">
                                 <li style="font-size: 14px; font-weight:700"><a href="#" class="item">VIRTUAL OFFICE SERVICE</a>
                                     <p style="font-size: 11px; font-weight:400;color:#000;padding-left:11px">
                                         Your Office, Your Way: Virtually Redefining Workspaces.
                                     </p>
                                 </li>
-                                <hr style="margin-top: 30px;margin-left: 11px;width: 19rem;border-top: 1px solid #000;">
+                                <hr style="margin-top: 30px;margin-left: 11px;width: 19rem;border-top: 1px solid #686868;">
                             </div>
                         </div>
                     </ul>

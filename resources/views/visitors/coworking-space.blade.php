@@ -18,7 +18,6 @@
                             data-target="#myModal">Consult With Us &nbsp;&nbsp; <i class="fa-solid fa-chevron-right"
                                 style="text-decoration: none;"></i> </a>
                     </div>
-
                 </div>
             </div>
         </div>

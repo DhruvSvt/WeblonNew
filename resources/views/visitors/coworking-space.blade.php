@@ -94,13 +94,13 @@
                                         <textarea class="form-control rounded-0" id="exampleFormControlTextarea2"
                                             rows="3" placeholder="Message"></textarea>
                                     </div>
-                                    <div class="col-2 mt-2">
+                                    <div class="col-2 mt-3">
                                         <span>6 + 7 = </span>
                                     </div>
-                                    <div class="col-3 d-flex">
+                                    <div class="col-3 d-flex mt-2">
                                         <input type="text" class="form-control" id="inputZip">
                                     </div>
-                                    <div class="col-7 mt-2" style="padding-left: 10rem; padding-top:2.5px">
+                                    <div class="col-7" style="padding-left: 10rem; padding-top:2.5px">
                                         <a type="submit">Submit <i class="fa-solid fa-chevron-right"></i></a>
                                     </div>
                                 </form>
